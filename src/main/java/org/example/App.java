@@ -12,8 +12,8 @@ import java.sql.SQLException;
 public class App 
 {
     public static void main(String[] args) throws SQLException {
-        Singleton instance1 = Singleton.getInstance();
-        Singleton instance2 = Singleton.getInstance();
+        SingletonDesign instance1 = SingletonDesign.getInstance();
+        SingletonDesign instance2 = SingletonDesign.getInstance();
         if(instance1==instance2){
             System.out.println("Both the instances are same ");
         }
